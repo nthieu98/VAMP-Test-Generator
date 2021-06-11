@@ -1,6 +1,6 @@
 # Chương trình sinh test cho VAMP
-Ngôn ngữ: Python 3
-Môi trường: Window 10
++ Ngôn ngữ: Python 3
++ Môi trường: Windows 10
 
 Các chương trình trong bộ sinh test:
 ## get_pixel.py: Chương trình đọc pixel trên ảnh
