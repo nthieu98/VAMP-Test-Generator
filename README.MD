@@ -14,9 +14,9 @@ Các chương trình trong bộ sinh test:
 - Toạ độ sau khi đổi được lưu ra thư mục data
 - Mỗi tuyến bus được lưu trong 1 file riêng
 - Tham số đầu vào: 
-	+ thư mục nguồn, đích, 
-	+ kích thước ảnh, 
-	+ kích thước lưới, 
+	+ thư mục nguồn, đích
+	+ kích thước ảnh
+	+ kích thước lưới
 	+ số tuyến bus
 
 ## gen_critical.py: Chương trình sinh ngẫu nhiên critical point trong lưới
@@ -39,8 +39,7 @@ Các chương trình trong bộ sinh test:
 
 
 ## gen_filled_square.py: Chương trình sinh ảnh minh hoạ cho từng tuyến bus và các điểm critical point
-- Ảnh được lưu ở thư mục image_bus
-- Tham số đầu vào:
+- Ảnh được lưu ở thư mục image_set_filled_square
 	+ thư mục dữ liệu nguồn, đích
 	+ kích thước lưới
 	+ số tuyến bus
@@ -48,7 +47,7 @@ Các chương trình trong bộ sinh test:
 	+ bán kính sensor (ko phải dạng list)
 	
 ## gen_all.py: Chương trình sinh ảnh minh hoạ cho tất cả tuyến bus với vùng tương tác giữa sensor và critical point
-- Ảnh được lưu ở thư mục image_bus
+- Ảnh được lưu ở thư mục image_bus_map
 - Tham số đầu vào:
 	+ thư mục dữ liệu nguồn, đích
 	+ kích thước lưới
