@@ -52,8 +52,8 @@ Các chương trình trong bộ sinh test:
 	+ thư mục dữ liệu nguồn, đích
 	+ kích thước lưới
 	+ số tuyến bus
-	+ số điểm critical cần sinh (ko phải dạng list)
-	+ bán kính sensor (ko phải dạng list)
+	+ số điểm critical cần sinh 
+	+ bán kính sensor
 	
 ## gather_data.py: Chương trình tổng hợp dữ liệu về data_set
 - Thư mục mặc định data_set
