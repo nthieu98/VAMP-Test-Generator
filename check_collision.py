@@ -11,6 +11,8 @@ def check_position(square, point, r, eps=0.000001):
   circleDistance_x = abs(point.x - square.x)
   circleDistance_y = abs(point.y - square.y)
 
+  
+
   if circleDistance_x > (square.w/2 + r):
     return -1
   if circleDistance_y > (square.w/2 + r):
